@@ -1,0 +1,32 @@
+:root {
+  --fonts-color: #e3d6d6;
+  --botton-color: #e04d01;
+  /* variables text */
+  --weight-all: 700;
+  --iphone-size: 24px;
+  --desktop-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  color: var(--fonts-color);
+}
+
+a {
+  text-decoration: none;
+  display: inline;
+  color: black;
+}
