@@ -1,5 +1,8 @@
 body {
-  background: linear-gradient(120deg, #251d3a 45.33%, #ff7700 100%);
+  background: radial-gradient(212.74% 78.26% at 50% 0%,
+      rgba(228, 207, 13, 0.99) 0%,
+      rgba(163, 24, 24, 0.96) 29.31%,
+      #0d121d 67.28%);
 }
 main {
   display: grid;
