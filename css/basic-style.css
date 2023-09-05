@@ -1,32 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+
 :root {
-  --fonts-color: #e3d6d6;
-  --botton-color: #e04d01;
-  /* variables text */
-  --weight-all: 700;
-  --iphone-size: 24px;
-  --desktop-size: 20px;
+   --fonts-color: #ffffff;
+   --botton-color: #e04d01;
+   /* variables text */
+   --weight-all: 500;
+   --iphone-size: 24px;
+   --desktop-size: 20px;
+   --fonts-carte: "Carter One", cursive;
 }
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
 }
 
 html {
-  font-size: 62.5%;
-  font-family: "DM Sans", sans-serif;
+   font-size: 62.5%;
+   font-family: "DM Sans", sans-serif;
+  overflow-x: hidden
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  color: var(--fonts-color);
+   width: 100vw;
+   height: 100vh;
+  overflow-x: hidden;
+   color: var(--fonts-color);
 }
 
 a {
-  text-decoration: none;
-  display: inline;
-  color: black;
+   text-decoration: none;
+   display: inline;
+   color: black;
 }
